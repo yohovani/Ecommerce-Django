@@ -1,5 +1,5 @@
 from urllib import request
-from django.shortcuts import get_object_or_404, redirect, render, redirect
+from django.shortcuts import get_object_or_404, redirect, render
 from store.models import Product, Variation
 from .models import Cart, CartItem
 from django.core.exceptions import ObjectDoesNotExist
