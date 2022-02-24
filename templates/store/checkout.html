@@ -16,7 +16,7 @@
 
                     <div class="card-body">
                         <h4 class="card-title mb-4">Dirección de Facturación</h4>
-                        <form action="{% url 'checkout' %}" method="post">
+                        <form action="{% url 'place_order' %}" method="post">
                             {% csrf_token %}
                             <div class="form-row">
                                 <div class="col form-group">
